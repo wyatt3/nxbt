@@ -1,6 +1,6 @@
 const macro = `` //Put your macro here
 
 document.addEventListener("DOMContentLoaded", function(e) {
-    restartController();
+    // restartController();
     setTimeout(sendMacro(macro), 5000);
 });
