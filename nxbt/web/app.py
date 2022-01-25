@@ -41,6 +41,9 @@ USER_INFO = {}
 def index():
     return render_template('index.html')
 
+@app.route('/bot')
+def bot():
+    return render_template('bot.html')
 
 @sio.on('connect')
 def on_connect():
